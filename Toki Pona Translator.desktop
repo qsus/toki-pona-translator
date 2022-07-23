@@ -2,6 +2,7 @@
 Name=Toki Pona Translator
 Terminal=true
 Type=Application
-Exec=/home/USER/toki-pona-translator/translator.py
 Comment=Tries to translate sentences from Toki Pona to English.
-Icon=/home/USER/toki-pona-translator/toki-pona.png"
+Exec=/home/USER/toki-pona-translator/translator.py
+Icon=/home/USER/toki-pona-translator/toki-pona.png
+Path=/home/USER/toki-pona-translator/
