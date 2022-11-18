@@ -9,7 +9,7 @@ def printDef(word):
 	print(f"\n{c.G}{c.BOLD}{word}{c.NOBD}: {dictionary[word]}")
 
 def printOther(word):
-	print(f"{c.O}{word}{c.END}", end="")
+	print(f"{c.O}{word}{c.END} ", end="")
 
 class c:
 	G = '\033[92m'
