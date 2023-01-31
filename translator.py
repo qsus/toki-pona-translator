@@ -1,7 +1,18 @@
 #!/usr/bin/python3
 
 import json
-dictionary = json.load(open('toki-pona.json'))
+
+# Asynchronously download json file from linku.la
+#from threading import Thread
+#from requests import get
+#def onResponse(response, *args, **kwargs):
+#	json.dump(response.json(), open("data.json", "w"))
+#	print("Downloaded data.json.", end="")
+#thread = Thread(target=get, args=["https://linku.la/jasima/data.json"], kwargs={"hooks":{"response":onResponse}})
+#thread.start()
+
+
+dictionary = json.load(open('simplified.json'))
 
 print("\n\nProgram can be stopped at any time by entering nothing.")
 
